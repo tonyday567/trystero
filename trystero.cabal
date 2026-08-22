@@ -61,6 +61,7 @@ library
     circuits-meter >=0.1 && <0.2,
     circuits-parser >=0.1 && <0.2,
     circuits-pca >=0.1 && <0.2,
+    circuits-prob >=0.1 && <0.2,
     circuits-rl >=0.1 && <0.2,
     circuits-stats >=0.1 && <0.2,
     formatn >=0.3 && <0.4,

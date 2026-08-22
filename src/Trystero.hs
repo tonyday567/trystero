@@ -21,6 +21,7 @@ import Circuit.Meter (Meter)
 import Circuit.PCA ()
 import Circuit.Parser (Parser, These, char, runParserIdentity)
 import Circuit.Poly.StringDiagram ()
+import Circuit.Prob ()
 import Circuit.Process (Process, scan)
 import Circuit.RL.GridWorld ()
 import Circuit.Stats (ma)
@@ -57,6 +58,7 @@ greenLights = do
   putStrLn "circuits-parser: green"
   print (runParserIdentity (char 'a' :: Parser Identity String Char Char) "abc" :: These Char String)
   putStrLn "circuits-pca: green"
+  putStrLn "circuits-prob: green"
   putStrLn "circuits-llm: green"
   putStrLn "circuits-log: green"
   print (defaultLogConfig :: LogConfig)
