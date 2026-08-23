@@ -14,11 +14,13 @@ description:
   trystero depends on every package in the circuits substrate and
   provides a green-lights executable to prove they compile and link
   together.
+
 build-type: Simple
 tested-with:
   ghc ==9.10.1
   ghc ==9.12.2
   ghc ==9.14.1
+
 extra-doc-files:
   ChangeLog.md
   readme.md
