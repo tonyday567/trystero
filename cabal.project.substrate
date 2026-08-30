@@ -12,6 +12,7 @@ packages:
   ../circuits-meter/circuits-meter.cabal
   ../circuits-parser/circuits-parser.cabal
   ../circuits-pca/circuits-pca.cabal
+  ../circuits-prob/circuits-prob.cabal
   ../circuits-rl/circuits-rl.cabal
   ../circuits-stats/circuits-stats.cabal
   ../circuits/circuits.cabal
