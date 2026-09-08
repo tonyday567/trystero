@@ -108,7 +108,7 @@ source-repository-package
 
 source-repository-package
   type: git
-  location: https://github.com/tonyday567/mnet.git
+  location: https://github.com/tonyday567/circuits-net.git
   tag: main
 
 source-repository-package

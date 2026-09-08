@@ -150,7 +150,7 @@ repos =
     ("formatn", CI_Hackage),
     ("manyvalued", CI_Only),
     ("markup-parse", CI_Hackage),
-    ("mnet", CI_Only),
+    ("circuits-net", CI_Only),
     ("prettychart", CI_Hackage),
     ("sysl", CI_Only),
     ("free-agent", CI_Only)

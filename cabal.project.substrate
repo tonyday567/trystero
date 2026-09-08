@@ -21,7 +21,7 @@ packages:
   ../harpie/harpie.cabal
   ../circuits-logics/circuits-logics.cabal
   ../markup-parse/markup-parse.cabal
-  ../mnet/mnet.cabal
+  ../circuits-net/circuits-net.cabal
   ../numhask-space/numhask-space.cabal
   ../numhask/numhask.cabal
   ../prettychart/prettychart.cabal

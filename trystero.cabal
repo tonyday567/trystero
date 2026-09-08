@@ -71,7 +71,7 @@ library
     harpie >=0.3 && <0.4,
     circuits-logics >=0.1 && <0.2,
     markup-parse >=0.3 && <0.4,
-    mnet >=0.1 && <0.2,
+    circuits-net >=0.1 && <0.2,
     numhask >=0.14 && <0.15,
     numhask-space >=0.13 && <0.14,
     prettychart >=0.4 && <0.5,

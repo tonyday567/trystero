@@ -76,6 +76,6 @@ greenLights = do
   putStrLn "free-agent: green"
   putStrLn "circuits-logics: green"
   putStrLn "markup-parse: green"
-  putStrLn "mnet: green"
+  putStrLn "circuits-net: green"
   putStrLn "prettychart: green"
   putStrLn "circuits-sysl: green"
