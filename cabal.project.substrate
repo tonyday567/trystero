@@ -19,11 +19,11 @@ packages:
   ../formatn/formatn.cabal
   ../free-agent/free-agent.cabal
   ../harpie/harpie.cabal
-  ../manyvalued/manyvalued.cabal
+  ../circuits-logics/circuits-logics.cabal
   ../markup-parse/markup-parse.cabal
   ../mnet/mnet.cabal
   ../numhask-space/numhask-space.cabal
   ../numhask/numhask.cabal
   ../prettychart/prettychart.cabal
-  ../sysl/sysl.cabal
+  ../circuits-sysl/circuits-sysl.cabal
   trystero.cabal

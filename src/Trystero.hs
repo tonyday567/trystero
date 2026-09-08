@@ -22,7 +22,7 @@ import Circuit.PCA ()
 import Circuit.Parser (Parser, These, char, runParserIdentity)
 import Circuit.Poly.StringDiagram ()
 import Circuit.Prob ()
-import Circuit.Process (Process, scan)
+import Circuit.Cell (Process, scan)
 import Circuit.RL.GridWorld ()
 import Circuit.Stats (ma)
 import Data.FormatN ()
@@ -36,7 +36,7 @@ import Net ()
 import NumHask.Prelude (one)
 import NumHask.Space (Point (..))
 import Prettychart ()
-import SysL ()
+import Circuit.SysL ()
 
 greenLights :: IO ()
 greenLights = do
@@ -51,7 +51,7 @@ greenLights = do
   putStrLn "circuits-stats: green"
   print (scan (ma 0.1) [1, 2, 3 :: Double])
   putStrLn "circuits: green"
-  print (Proxy :: Proxy (Process Double Double))
+  print (Proxy :: Proxy (Process (,) Double (->) Double Double))
   putStrLn "circuits-diagrams: green"
   putStrLn "circuits-mat: green"
   print (Proxy :: Proxy (Mat Double () ()))
@@ -74,8 +74,8 @@ greenLights = do
   putStrLn "circuits-rl: green"
   putStrLn "formatn: green"
   putStrLn "free-agent: green"
-  putStrLn "manyvalued: green"
+  putStrLn "circuits-logics: green"
   putStrLn "markup-parse: green"
   putStrLn "mnet: green"
   putStrLn "prettychart: green"
-  putStrLn "sysl: green"
+  putStrLn "circuits-sysl: green"

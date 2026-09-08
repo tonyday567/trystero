@@ -69,13 +69,13 @@ library
     formatn >=0.3 && <0.4,
     free-agent >=0.1 && <0.2,
     harpie >=0.3 && <0.4,
-    manyvalued >=0.1 && <0.2,
+    circuits-logics >=0.1 && <0.2,
     markup-parse >=0.3 && <0.4,
     mnet >=0.1 && <0.2,
     numhask >=0.14 && <0.15,
     numhask-space >=0.13 && <0.14,
     prettychart >=0.4 && <0.5,
-    sysl >=0.1 && <0.2,
+    circuits-sysl >=0.1 && <0.2,
     text >=1.2 && <2.2,
 
 executable trystero-green-lights
