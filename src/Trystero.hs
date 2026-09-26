@@ -11,7 +11,7 @@ import Chart ()
 import Circuit.Agent (Post, mkPost)
 import Circuit.Chu (Chu)
 import Circuit.Diff.Circuit qualified as CDD
-import Circuit.GMachine (Process, scan)
+import Circuit.GMachine (GMoore, scan)
 import Circuit.Inference.Prob ()
 import Circuit.LLM.GPT ()
 import Circuit.Learn.Para ()
@@ -51,7 +51,7 @@ greenLights = do
   putStrLn "circuits-stats: green"
   print (scan (ma 0.1) [1, 2, 3 :: Double])
   putStrLn "circuits: green"
-  print (Proxy :: Proxy (Process (,) Double (->) Double Double))
+  print (Proxy :: Proxy (GMoore (,) Double (->) Double Double))
   putStrLn "circuits-diagrams: green"
   putStrLn "circuits-mat: green"
   print (Proxy :: Proxy (Mat Double () ()))
