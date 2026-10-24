@@ -123,7 +123,7 @@ neighbours you are likely to bump into when working in any of the repos.
 | `random` | `harpie`, `circuits-llm` | random generation |
 | `mwc-probability` | `numhask-space`, `circuits-stats` | probability distributions |
 | `dunning-t-digest` | `numhask-space`, `circuits-stats` | approximate quantiles (t-digest) |
-| `mtl` | `circuits-parser`, `circuits-agent`, `chart-svg` | monad transformers |
+| `mtl` | `circuits-agent`, `chart-svg` | monad transformers |
 | `these` | `circuits-parser` | `These` result type |
 | `process` | `circuits-parser` | spawning external processes |
 | `prettyprinter` | `harpie`, `circuits-mat` | pretty-printing arrays |
