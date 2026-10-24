@@ -123,18 +123,15 @@ neighbours you are likely to bump into when working in any of the repos.
 | `random` | `harpie`, `circuits-llm` | random generation |
 | `mwc-probability` | `numhask-space`, `circuits-stats` | probability distributions |
 | `dunning-t-digest` | `numhask-space`, `circuits-stats` | approximate quantiles (t-digest) |
-| `logict` | `circuits-parser` | backtracking parser logic |
-| `mtl` | `circuits-parser` | monad transformers |
+| `mtl` | `circuits-parser`, `circuits-agent`, `chart-svg` | monad transformers |
 | `these` | `circuits-parser` | `These` result type |
 | `process` | `circuits-parser` | spawning external processes |
 | `prettyprinter` | `harpie`, `circuits-mat` | pretty-printing arrays |
 | `primitive` | `circuits-stats` | primitive arrays / ST |
 | `deepseq` | `circuits-parser`, `circuits-llm`, `circuits-meter` | strict NFData |
 | `transformers` | `circuits-diff` | standard transformers |
-| `ad-delcont` | `circuits-diff` | AD oracle reference |
 | `clock` | `circuits-meter` | timing measurements |
 | `optparse-applicative` | `circuits-meter` | CLI for observe executables |
-| `tasty-bench` | `circuits-parser` | benchmarking harness |
 
 ## Verification and observation: the square
 
